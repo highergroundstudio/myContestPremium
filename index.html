@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html">
+    <title>myContest Docs - A Wordpress Contest Plugin</title>
+    <meta content="Welcome the the docs of myContest!" name="description">
+    <meta content="Higher Ground Studio" name="author">
+    <meta content="Higher Ground Studio" name="copyright">
+    <meta content="Documenter v1.6 http://rxa.li/documenter" name="generator">
+    <meta content="2013-05-01T00:00:00+02:00" name="date">
+    
+    <link href="assets/css/documenter_style.min.css" media="all" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+
+<body>
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+
+        <ol id="documenter_nav">
+            <li>
+                <a class="current" href="#documenter_cover">Start</a>
+            </li>
+
+            <li>
+                <a href="#prerequisites">Prerequisites</a>
+            </li>
+
+            <li>
+                <a href="#install">Install</a>
+
+                <ol>
+                    <li>
+                        <a href="#install_using_zip">Using ZIP</a>
+                    </li>
+
+                    <li>
+                        <a href="#install_using_ftp">Using FTP</a>
+                    </li>
+                </ol>
+            </li>
+
+            <li>
+                <a href="#working_with_contests">Working with Contests</a>
+
+                <ol>
+                    <li>
+                        <a href="#working_with_contests_create_a_contest">Create a Contest</a>
+                    </li>
+
+                    <li>
+                        <a href="#working_with_contests_how_to_add_entry">Add entry</a>
+                    </li>
+
+                    <li>
+                        <a href="#working_with_contests_how_to_delete_entry">Delete entry</a>
+                    </li>
+
+                    <li>
+                        <a href="#working_with_contests_how_to_re_order_entries">Re-order entries</a>
+                    </li>
+
+                    <li>
+                        <a href="#working_with_contests_how_to_save_contest">Save contest</a>
+                    </li>
+
+                    <li>
+                        <a href="#working_with_contests_field_definitions">Field Definitions</a>
+                    </li>
+                </ol>
+            </li>
+
+            <li>
+                <a href="#settings">Settings</a>
+                <ol>
+                    <li>
+                        <a href="#general-settings">General</a>
+                    </li>
+                    <li>
+                        <a href="#votestart-settings">Voting Start</a>
+                    </li>
+                    <li>
+                        <a href="#voteend-settings">Voting End</a>
+                    </li>
+                </ol>
+            </li>
+
+            <li>
+                <a href="#css_sass">CSS/SASS</a>
+                <ol>
+                    <li>
+                        <a href="#minify_css">Minify CSS</a>
+                    </li>
+                    <li>
+                        <a href="#custom_css">Custom CSS</a>
+                    </li>
+                    <li>
+                        <a href="#sass_compass">SASS and COMPASS</a>
+                    </li>
+
+                </ol>
+            </li>
+
+            <li>
+                <a href="#javascript">Javascript</a>
+                <ol>
+                    <li>
+                        <a href="#enable_disable_js_mini">Enable/Disable Minified JS</a>
+                    </li>
+                    <li>
+                        <a href="#minify_js">Minify JS</a>
+                    </li>
+                </ol>
+            </li>
+            
+            <br/>
+            <li>
+            	<a href="https://github.com/highergroundstudio/myContest/zipball/gh-pages">Download Docs as ZIP</a>
+            </li>
+            <li>
+            	<a href="https://github.com/highergroundstudio/myContest/">View On GitHub</a>
+            </li>
+        </ol>
+
+        <div id="documenter_copyright">
+            Copyright Higher Ground Studio 2013
+        </div>
+    </div>
+
+    <div id="documenter_content">
+        <section id="documenter_cover">
+
+            <h1>myContest</h1>
+
+            <h2>A Premium Wordpress Contest Plugin</h2>
+            <hr>
+
+            <ul>
+                <li>Created: 11/22/2012</li>
+
+                <li>By: Higher Ground Studio</li>
+
+                <li>
+                    <a href="http://highergroundstudio.github.io/myContest">highergroundstudio.github.io/myContest</a>
+                </li>
+
+            </ul>
+
+            <p>Welcome the the docs of myContest!</p>
+        </section>
+
+        <section id="prerequisites">
+            <h3>Prerequisites</h3>
+            <hr class="notop">
+
+            <ul>
+                <li>
+                    Wordpress 3.00+
+                </li>
+
+                <li>
+                    PHP 5.1.0+
+                </li>
+            </ul>
+        </section>
+
+        <section id="install">
+            <h3>Install</h3>
+            <hr class="notop">
+
+            <h4 id="install_using_zip">Using ZIP</h4>
+
+            <ol>
+                <li>
+                    From the WordPress plugin menu click Add New
+                    <img class="thumbnail" alt="Plugin Menu" src="assets/images/screenshots/plugin-menu.png">2
+                </li>
+
+                <li>
+                    Click on Upload.
+                    <img class="thumbnail" alt="upload plugin" src="assets/images/screenshots/install_plugins.png">
+                </li>
+
+                <li>
+                    Use the browse button to select the myContest zip file you downloaded from Codecanyon, then click on Install Now.
+                    <img class="thumbnail" alt="upload plugin" src="assets/images/screenshots/upload-zip.png">
+                </li>
+
+                <li>
+                The plugin will be uploaded to your blog and installed.</li>
+
+                <li>
+                Go to Plugins screen and find the myContest Plugin in the list.</li>
+
+                <li>
+                    Click Activate to activate myContest.
+                    <img class="thumbnail" alt="activate plugin" src="assets/images/screenshots/activate-plugin.png">
+                </li>
+            </ol>
+
+            <h4 id="install_using_ftp">Using FTP</h4>
+
+            <ol>
+                <li>
+                    Download myContest from Codecanyon.
+                    <img class="thumbnail" alt="download plugin" src="assets/images/screenshots/codecanyon_download_pointer.png">
+                </li>
+
+                <li>
+                    Extract the myContest folder.
+                </li>
+
+                <li>
+                    With your favorite FTP program, upload the myContest folder to the wp-content/plugins folder in your WordPress directory online.
+                </li>
+
+                <li>
+                    Go to Plugins screen and find the myContest Plugin in the list.
+                </li>
+
+                <li>
+                    Click Activate to activate it.
+                    <img class="thumbnail" alt="activate plugin" src="assets/images/screenshots/activate-plugin.png">
+                </li>
+            </ol>
+        </section>
+
+        <section id="working_with_contests">
+            <h3>Working with Contests</h3>
+            <hr class="notop">
+
+            This screencast covers all of the Working with Contests sections.
+            <iframe class="thumbnail" src="http://www.screenr.com/embed/Em97" width="650" height="396" frameborder="0"></iframe>
+
+            <h4 id="working_with_contests_create_a_contest">Create a Contest</h4>
+
+            <ol>
+                <li>Go to myContest -&gt; Add New Constest on the Wordpress admin menu.</li>
+
+                <li>Fill this in like any other post with your title, content, and any other settings that you want.</li>
+
+                <li>Then add your entries.</li>
+            </ol>
+
+            <h4 id="working_with_contests_how_to_add_entry">Add entry</h4>
+
+            <ul>
+                <li>Click the Add New Entry Button on the left when you are on the Contest post edit page.</li>
+            </ul>
+
+            <h4 id="working_with_contests_how_to_delete_entry">Delete entry</h4>
+
+            <ul>
+                <li>Click the delete icon on the top right of the entry. A confirmation dialog box will appear asking you confirm the delete.&nbsp;</li>
+            </ul>
+
+            <p class="warning">The entry will not actually be deleted until you save or update the contest post.</p>
+
+            <h4 id="working_with_contests_how_to_re_order_entries">Re-order entries</h4>
+
+            <ul>
+                <li>Click and hold the move icon on the top right of the entry.</li>
+            </ul>
+
+            <h4 id="working_with_contests_how_to_save_contest">Save contest</h4>
+
+            <ul>
+                <li>Click save or update in the Publish postbox on the right.</li>
+            </ul>
+
+            <h4 id="working_with_contests_field_definitions">Field Definitions</h4>
+
+            <ul>
+                <li>Author - The author of the entry</li>
+
+                <li>Author URL - The url author of the entry</li>
+
+                <li>Title - The title of the entry</li>
+
+                <li>Url - The url of the entry (displays as the title link)</li>
+
+                <li>Votes - Number of votes for the entry (can be changed by using the arrows on the right or directly entering the number)</li>
+            </ul>
+        </section>
+
+        <section id="settings">
+            <h3>Settings</h3>
+            <hr class="notop">
+            <p>&nbsp;</p>
+            The can access all the settings by using the tabs.
+            <h4 id="general-settings">General</h4>
+                <ul>
+                    <li>
+                        Sort Entries - You can select to sort by highest votes first, lowest vote first, alphabetically by the title, reverse alphabetically by the title, alphabetically by the author, reverse alphabetically by the author, random, or not to sort at all. 
+                        <p class="info">This sorting will not reflect on the admin post page and will only reflect on the actual contest itself.</p>
+                    </li>
+                    <li>
+                        Stick this to the front page - If checked, the post will be placed at the top of the front page of posts, keeping it there until new posts are published. This is the same as a <a href="http://codex.wordpress.org/Sticky_Posts">sticky post</a>.
+                    </li>
+                    <li>
+                        Do not show number of votes - If checked, the number of votes will not show on this contest. Rather, it will say "Vote for this". 
+                    </li>
+                    <li>
+                        Logged-in users can only vote - If checked, users must login to be able to vote
+                    </li>
+                    <li>
+                        Do not show entries to non logged-in users - If checked, entries will not be shown to user at all.
+                    </li>
+                    <li>
+                        Text to display to non logged in users (HTML allowed) - Text/html to display to non logged in users if <strong>Logged-in users can only vote</strong> is checked.
+                    </li>
+                </ul>
+            <h4 id="votestart-settings">Voting Start</h4>
+                <ul>
+                    <li>
+                        Voting Starts on (UTC) - This the date and time that the contest will start (in <a href="http://en.wikipedia.org/wiki/Coordinated_Universal_Time">UTC</a>). 
+                        <ol>
+                            <li>Select the date input box. A calendar widget will come up that you can select from. You can also input directly using month/day/year (05/02/2013)</li>
+                            <li>Input the hours (24 hour format).</li>
+                            <li>Input the minutes.</li>
+                            <p class="info">If hours or minutes are not entered it default to midnight.</p>
+                        </ol>
+                    </li>
+                    <li>
+                        Text to display before voting starts - This is the text to display before voting starts. If the do not show entries before voting starts is checked, this will be the only thing displayed other than the content. HTML is allowed.
+                    </li>
+                    <li>
+                        Do not show entries before voting starts - Entries will not show until the contest starts.
+                    </li>
+                </ul>
+            <h4 id="voteend-settings">Voting End</h4>
+                <ul>
+                    <li>
+                        Voting ends on (UTC) - This the date and time that the contest will end (in <a href="http://en.wikipedia.org/wiki/Coordinated_Universal_Time">UTC</a>). 
+                        <ol>
+                            <li>Select the date input box. A calendar widget will come up that you can select from. You can also input directly using month/day/year (05/02/2013)</li>
+                            <li>Input the hours (24 hour format).</li>
+                            <li>Input the minutes.</li>
+                            <p class="info">If hours or minutes are not entered it default to midnight.</p>
+                        </ol>
+                    </li>
+                    <li>
+                        Text to display after voting ends - This is the text to display after voting ends. If the do not show entries after voting ends is checked, this will be the only thing displayed other than the content. HTML is allowed.
+                    </li>
+                    <li>
+                        Do not show entries after voting ends - Entries will not show after the contest ends.
+                    </li>
+                    <li>
+                        Show top ___ entries after voting ends - This will show only the top entered number of entries (ordered by highest votes first). Make sure that Do not show entries after voting ends is not checked to use this setting.
+                    </li>
+                </ul>
+        </section>
+
+        <section id="css_sass">
+            <h3>CSS/SASS</h3>
+            <hr class="notop">
+            <p>&nbsp;</p>
+            <h4 id="minify_css">Minify CSS</h4>
+            <div>
+                To turn on or off the loading of minified CSS
+                <ol>
+                    <li>Go to the myContest plugin folder</li>
+                    <li>Open myContest.php in your favorite editor</li>
+                    <li><span class="turnon">To turn on:</span> make sure the css_min constant is like so: <pre>const css_min = true;</pre></li>
+                    <li><span class="turnoff">To turn off:</span> make sure the css_min constant is like so: <pre>const css_min = false;</pre></li>
+                </ol>
+            </div>
+
+            <h4 id="custom_css">Custom CSS</h4>
+            <div>
+                To use custom css that will not be overwritten follow these steps:
+                <ol>
+                    <li>Go to the myContest folder</li>
+                    <li>Go to /inc/stylesheets/ folder</li>
+                    <li>Copy and paste the myContest.css</li>
+                    <li>Rename the copy to myContest.custom.css</li>
+                    <p class="info">To use a minified version of the mycontest custom css, create a myContest.custom.min.css and <a href="#minify_css">turn css minify on</a>.</p>
+                </ol> 
+            </div>
+
+            <h4 id="sass_compass">SASS and Compass</h4>
+            <div>
+                myContest was created with <a href="http://sass-lang.com/">SASS</a> and <a href="http://compass-style.org/">Compass</a>. Sass is a super-set of CSS. Any valid CSS code is valid Sass. But Sass adds author-friendly capabilities such as nesting, variables, arithmetic and mixins. And Sass gets compiled into regular CSS so its 100% compatible with all browsers. Compass is a library of reusable, pre-made Sass code. 
+                <br><br>
+                It is completely your choice if you want to use SASS to change the CSS. You can just change the CSS directly and forget about the SASS all together as it is just a css pre-processor (more like a CSS shortcut).
+
+                <p class="info">To learn more about SASS check out the netuts+ mini series, <a href="http://net.tutsplus.com/sessions/mastering-sass/">Mastering SASS</a>.</p>
+            </div>
+        </section>
+
+        <section id="javascript">
+            <h3>Javascript</h3>
+            <hr class="notop">
+            <p>&nbsp;</p>
+            <h4 id="enable_disable_js_mini">Enable/Disable Minified JS</h4>
+            <div>
+                To turn on or off the loading of minified javascript files
+                <ol>
+                    <li>Go to the myContest plugin folder</li>
+                    <li>Open myContest.php in your favorite editor</li>
+                    <li>
+                        <span class="turnon">To turn on:</span>
+                        make sure the js_min constant is like so: 
+                        <pre>const js_min = true;</pre>
+                    </li>
+                    <li><span class="turnoff">To turn off:</span> make sure the js_min constant is like so: <pre>const js_min = false;</pre></li>
+                </ol>To turn on or off the loading of minified javascript files
+                <ol>
+                    <li>Go to the myContest plugin folder</li>
+                    <li>Open myContest.php in your favorite editor</li>
+                    <li>
+                        <span class="turnon">To turn on:</span>
+                        make sure the js_min constant is like so: 
+                        <pre>const js_min = true;</pre>
+                    </li>
+                    <li><span class="turnoff">To turn off:</span> make sure the js_min constant is like so: <pre>const js_min = false;</pre></li>
+                </ol>
+            </div>
+            <h4 id="minify_js">Minify JS</h4>
+            <div>
+                Read about <a href="http://en.wikipedia.org/wiki/Minify">minification on Wikipedia</a>
+                <ol>
+                    <li>Go to the myContest plugin folder</li>
+                    <li>Go to /inc/javascripts/ folder</li>
+                    <li>Open myContest-votes.js in your favorite editor</li>
+                    <li>
+                        Copy all of the js and paste into a minifier (suggested online tool: <a href="http://jsmini.com/">jsmini.com</a>) or use your own method.
+                        <p class="info">Presonally I use <a href="http://codecanyon.net/item/shrinkr-js-css-compressor/477610?sso?WT.ac=search_item&WT.seg_1=search_item&WT.z_author=JonasDoebertin&ref=HigherGroundStudio">shrinkr windows app</a> to minify both css and js. Just drag in your assets/inc folder and it does both creating a .min file.</p>
+                        <p class="info">For the Apple user there is the <a href="http://codecanyon.net/item/smaller/303476?sso?WT.ac=search_item&WT.seg_1=search_item&WT.z_author=chenluois&ref=HigherGroundStudio">Smaller app</a>. I have never tried this both it looks pretty close to <a href="http://codecanyon.net/item/shrinkr-js-css-compressor/477610?sso?WT.ac=search_item&WT.seg_1=search_item&WT.z_author=JonasDoebertin&ref=HigherGroundStudio">shrinkr</a></p>
+                    </li>
+                    <li>Delete the js in myContest-votes.min.js and paste in your minified js code</li>
+                    <li>Save and upload if necessary</li>
+                    <li>Make sure that <a href="#enable_disable_js_mini">minified js is enabled</a></li>
+                </ol>
+            </div>
+        </section>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-2.0.0.min.js"><\/script>')</script>
+    <script>
+		document.createElement('section');
+		var duration=500,
+		easing='swing';
+    </script>
+    <script src="assets/js/app.min.js"></script>
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-6534095-9', 'github.io');
+	  ga('send', 'pageview');
+
+	</script>
+    <div id="MicrosoftTranslatorWidget" style="width: 200px; min-height: 0px; border-color: #3A5770; background-color: #78ADD0; display: none;"><noscript><a href="https://ssl.microsofttranslator.com/bv.aspx?a=http%3a%2f%2fhighergroundstudio.github.io%2fmyContest%2f">Translate this page</a><br />Powered by <a href="http://www.bing.com/translator">Microsoft® Translator</a></noscript></div> <script type="text/javascript"> /* <![CDATA[ */ setTimeout(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.charset = "UTF-8"; s.src = ((location && location.href && location.href.indexOf('https') == 0) ? "https://ssl.microsofttranslator.com" : "http://www.microsofttranslator.com" ) + "/ajax/v2/widget.aspx?siteData=MRH6JljH5VPV_Ztd_uqJR7SvAVl2dcBGpHOafEJtTjA95jhoLzLQ45hESS71pCN9lV9GDmmrlJbvjTQ5u1KS8L2_j2TgsMcVTwvuIe8irKDK2kwuRmCGcviAEIUDoiU3&mode=notify&widget=none&from=en&layout=ts"; var p = document.getElementsByTagName('head')[0] || document.documentElement; p.insertBefore(s, p.firstChild); }, 0); /* ]]> */ </script> 
+</body>
+</html>
